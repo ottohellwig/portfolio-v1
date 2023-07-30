@@ -1,8 +1,8 @@
 import { Inter } from "next/font/google";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { CgWebsite } from "react-icons/cg";
 import Layout from "../components/layout";
 import React from "react";
-import { BsGitHub, BsGithub, BsLinkedin } from "react-icons/bs";
-import { CgWebsite } from "react-icons/cg";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -36,19 +36,25 @@ function Contact() {
                 <div className="social-icons flex flex-row space-x-8">
                   <a
                     href="https://www.linkedin.com/in/ottohellwig/"
-                    className="h-10 w-10 rounded-full hover:bg-zinc-300 flex items-center justify-center cursor-pointer"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="h-8 w-8 rounded-full hover:bg-zinc-300 flex items-center justify-center cursor-pointer"
                   >
                     <BsLinkedin />
                   </a>
                   <a
                     href="https://github.com/ottohellwig"
-                    className="h-10 w-10 rounded-full hover:bg-zinc-300 flex items-center justify-center cursor-pointer "
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="h-8 w-8 rounded-full hover:bg-zinc-300 flex items-center justify-center cursor-pointer "
                   >
                     <BsGithub />
                   </a>
                   <a
                     href="https://ottohellwig.me"
-                    className="h-10 w-10 rounded-full hover:bg-zinc-300 flex items-center justify-center cursor-pointer "
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="h-8 w-8 rounded-full hover:bg-zinc-300 flex items-center justify-center cursor-pointer "
                   >
                     <CgWebsite />
                   </a>

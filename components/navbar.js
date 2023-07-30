@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
     <div>
-      <nav className="py-10 mb-12 flex flex-col items-center">
+      <nav className="py-10 mb-12 flex flex-col items-center text-lg">
         <ul className="flex space-x-4">
           <li>
             <a className="hover:text-zinc-300" href="/">

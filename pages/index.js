@@ -11,10 +11,10 @@ function Home() {
         <main className="px-10">
           <section className="min-h-screen">
             <div className="flex justify-center items-center h-full flex-col">
-              <h1 className="text-4xl font-display sm:text-6xl md:text-8xl font-bold mt-40 antialiased">
+              <h1 className="text-4xl font-display sm:text-6xl md:text-9xl font-bold mt-40 antialiased">
                 Otto Hellwig
               </h1>
-              <p className="text-md mt-8 text-center">
+              <p className="text-lg mt-8 text-center">
                 I'm studying computer science at the{" "}
                 <Link
                   target="_blank"
