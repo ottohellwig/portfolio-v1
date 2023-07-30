@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import Layout from "../components/layout";
 import React from "react";
+import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,9 +26,11 @@ function Portfolio() {
                 className="w-full block shadow-2xl"
               >
                 <div className="relative overflow-hidden">
-                  <img
+                  <Image
                     src="/project-blog.png"
                     alt="project-blog"
+                    width={1000}
+                    height={1000}
                     className="transform hover:scale-125 transition duration-2000 ease-out"
                   />
                   <h1 className="absolute top-10 left-10 text-white font-bold text-xl bg-zinc-400 rounded-md px-2">
@@ -46,9 +49,11 @@ function Portfolio() {
                 className="w-full block shadow-2xl"
               >
                 <div className="relative overflow-hidden">
-                  <img
+                  <Image
                     src="/project-cartesian-pathfinder.png"
                     alt="project-cartesian-pathfinder"
+                    width={1000}
+                    height={1000}
                     className="transform hover:scale-125 transition duration-2000 ease-out"
                   />
                   <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-zinc-400 rounded-md px-2">
@@ -67,9 +72,11 @@ function Portfolio() {
                 className="w-full block shadow-2xl"
               >
                 <div className="relative overflow-hidden">
-                  <img
+                  <Image
                     src="/project-wip.jpg"
                     alt="project-wip"
+                    width={1000}
+                    height={1000}
                     className="transform hover:scale-125 transition duration-2000 ease-out"
                   />
                   <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-zinc-400 rounded-md px-2">

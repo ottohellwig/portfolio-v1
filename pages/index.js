@@ -23,7 +23,7 @@ function Home() {
                 Otto Hellwig
               </h1>
               <p className="text-lg mt-8 text-center">
-                I'm studying computer science at the{" "}
+                I&apos;m studying computer science at the{" "}
                 <Link
                   target="_blank"
                   href="https://www.qut.edu.au"

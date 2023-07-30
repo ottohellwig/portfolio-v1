@@ -1,25 +1,27 @@
+import Link from "next/link";
+
 const Navbar = () => {
   return (
     <div>
       <nav className="py-10 mb-12 flex flex-col items-center text-lg">
         <ul className="flex space-x-4">
           <li>
-            <a className="hover:text-zinc-300" href="/">
+            <Link className="hover:text-zinc-300" href="/">
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="hover:text-zinc-300" href="/portfolio">
+            <Link className="hover:text-zinc-300" href="/portfolio">
               Portfolio
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="hover:text-zinc-300" href="/contact">
+            <Link className="hover:text-zinc-300" href="/contact">
               Contact
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               className="border border-black text-black hover:bg-black hover:text-white py-2 px-4 rounded transition"
               href="/resume.pdf"
               locale="false"
@@ -28,7 +30,7 @@ const Navbar = () => {
               rel="noopener noreferrer"
             >
               Resume
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
