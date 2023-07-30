@@ -4,13 +4,19 @@ const Navbar = () => {
       <nav className="py-10 mb-12 flex flex-col items-center">
         <ul className="flex space-x-4">
           <li>
-            <a href="/">Home</a>
+            <a className="hover:text-zinc-300" href="/">
+              Home
+            </a>
           </li>
           <li>
-            <a href="/portfolio">Portfolio</a>
+            <a className="hover:text-zinc-300" href="/portfolio">
+              Portfolio
+            </a>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <a className="hover:text-zinc-300" href="/contact">
+              Contact
+            </a>
           </li>
           <li>
             <a

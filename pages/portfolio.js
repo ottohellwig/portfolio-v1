@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import Layout from "../components/layout";
+import React from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -7,9 +8,56 @@ function Portfolio() {
   return (
     <Layout>
       <div>
-        <main className="px-10">
-          <a>Testing</a>
-        </main>
+        <section className="bg-white">
+          <div className="max-w-6xl mx-auto h-48 bg-white">
+            <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+              Portfolio
+            </h1>
+          </div>
+          {/* Grid starts here */}
+          <div className="">
+            <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
+              {/* First card */}
+              <a
+                href="https://ottohellwig.me/"
+                className="w-full block shadow-2xl"
+              >
+                <div className="relative overflow-hidden">
+                  <img
+                    src="/project-blog.png"
+                    alt="project-blog"
+                    className="transform hover:scale-125 transition duration-2000 ease-out"
+                  />
+                  <h1 className="absolute top-10 left-10 text-white font-bold text-xl bg-zinc-400 rounded-md px-2">
+                    Blog
+                  </h1>
+                  <h1 className="absolute bottom-10 left-10 text-white font-bold text-xl">
+                    01
+                  </h1>
+                </div>
+              </a>
+              {/* Second card */}
+              <a
+                href="https://github.com/ottohellwig/cartesian-pathfinder"
+                className="w-full block shadow-2xl"
+              >
+                <div className="relative overflow-hidden">
+                  <img
+                    src="/project-cartesian-pathfinder.png"
+                    alt="project-cartesian-pathfinder"
+                    className="transform hover:scale-125 transition duration-2000 ease-out"
+                  />
+                  <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-zinc-400 rounded-md px-2">
+                    Cartesian Pathfinder
+                  </h1>
+                  <h1 className="absolute bottom-10 left-10 text-white font-bold text-xl">
+                    02
+                  </h1>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
       </div>
     </Layout>
   );
