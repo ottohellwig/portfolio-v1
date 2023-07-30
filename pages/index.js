@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Inter } from "next/font/google";
 import Layout from "../components/layout";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -8,6 +9,13 @@ function Home() {
   return (
     <Layout>
       <div>
+        <Head>
+          <title>Otto Hellwig</title>
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
+        </Head>
         <main className="px-10">
           <section className="min-h-screen">
             <div className="flex justify-center items-center h-full flex-col">
