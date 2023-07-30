@@ -25,11 +25,11 @@ function Contact() {
                     href="mailto:ottohellwig@hotmail.com"
                     target="_blank"
                   >
-                    Get in touch, let's talk.
+                    Get in touch, let&apos;s talk.
                   </a>{" "}
                   <p className="font-light text-base mt-2">
-                    I'm always happy to discuss new opportunities whether it be
-                    work-related, coding projects or just a chat!
+                    I&apos;m always happy to discuss new opportunities whether
+                    it be work-related, coding projects or just a chat!
                   </p>
                 </header>
                 <div className="icons-container inline-flex flex-col my-4"></div>
