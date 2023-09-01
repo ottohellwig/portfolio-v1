@@ -1,38 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
 
-## Getting Started
+  # Portfolio V1
 
-First, run the development server:
+  First iteration of my portfolio website.
+  
+  ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)&nbsp;
+  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)&nbsp;
+  ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+  
+![image](https://github.com/ottohellwig/portfolio-v1/assets/105997582/bfb8391c-e2ce-4fa2-9331-52f12d26b005)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+</div>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<details>
+  <summary>
+    <i>Click to view features</i>
+  </summary>
+  <p>
 
-## Learn More
+  - Minimalist UI/UX
+  - Resume PDF download
+  - Next.js framework
+  - Tailwind CSS styling
 
-To learn more about Next.js, take a look at the following resources:
+  </p>
+</details>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+If you would like to run the website locally instead of using the URL, you can clone and deploy a local version.
 
-## Deploy on Vercel
+1. Clone the repository.
+   
+   ```sh
+   git clone https://github.com/ottohellwig/portfolio-v1.git
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Deploy local version.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```sh
+   npm run dev
+   ```
+
+## Contributing
+
+Contributions (Issues/PRs/Discussions) are the driver of improvements in projects. Any contributions you make are greatly appreciated.
+
+
+## License
+
+This work is published under [MIT License][license].
+
+[license]: https://github.com/ottohellwig/portfolio-v1/blob/master/LICENSE
