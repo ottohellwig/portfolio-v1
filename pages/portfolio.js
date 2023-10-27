@@ -11,7 +11,7 @@ function Portfolio() {
       <div>
         <section className="bg-white">
           <div className="max-w-6xl mx-auto h-48 bg-white">
-            <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+            <h1 className="text-5xl md:text-9xl font-bold py-20 -mb-24 text-center md:text-left ml-20">
               Portfolio
             </h1>
           </div>

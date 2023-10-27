@@ -19,7 +19,12 @@ function Home() {
         <main className="px-10">
           <section className="min-h-screen">
             <div className="flex justify-center items-center h-full flex-col">
-              <h1 className="text-4xl font-display sm:text-6xl md:text-9xl font-bold mt-40 antialiased">
+              <img
+                src="/astro-frontface.png"
+                alt="Test"
+                className="IMAGE"
+              ></img>
+              <h1 className="text-4xl font-display sm:text-6xl md:text-9xl font-bold mt-10 antialiased">
                 Otto Hellwig
               </h1>
               <p className="text-lg mt-8 text-center">
@@ -32,13 +37,13 @@ function Home() {
                   Queensland University of Technology
                 </Link>
                 <br></br>
-                and managing{" "}
+                and working on{" "}
                 <Link
                   target="_blank"
-                  href="https://www.linkedin.com/company/sb-professional-painting/"
+                  href="https://github.com/ottohellwig"
                   className="underline duration-500 hover:text-zinc-300"
                 >
-                  SB Professional Painting
+                  projects
                 </Link>{" "}
                 around the clock.
               </p>
