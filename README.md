@@ -46,11 +46,6 @@ If you would like to run the website locally instead of using the URL, you can c
    npm run dev
    ```
 
-## Contributing
-
-Contributions (Issues/PRs/Discussions) are the driver of improvements in projects. Any contributions you make are greatly appreciated.
-
-
 ## License
 
 This work is published under [MIT License][license].
