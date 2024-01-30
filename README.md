@@ -1,6 +1,6 @@
 # Portfolio V1
 
-This is the first iteration of my personal portfolio website. It was built using
+This is the first iteration of my personal portfolio website. It was built to learn the Next.js framework and experiment with Tailwind CSS.
   
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)&nbsp;
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
