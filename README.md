@@ -1,6 +1,6 @@
 # Portfolio V1
 
-My personal portfolio website built using Next.js (JavaScript) and Tailwind CSS.
+This is the first iteration of my personal portfolio website. It was built using
   
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)&nbsp;
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
