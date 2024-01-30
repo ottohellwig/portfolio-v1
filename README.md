@@ -64,9 +64,3 @@ If you would like to run the website locally instead of using the URL, you can c
 │  └─ globals.css
 └─ tailwind.config.js
 ```
-
-## License
-
-This work is published under [MIT License][license].
-
-[license]: https://github.com/ottohellwig/portfolio-v1/blob/master/LICENSE
